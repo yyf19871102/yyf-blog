@@ -1,0 +1,117 @@
+<template>
+  <div>
+    <div class="box article">
+      <div class="box-header with-border" style="text-align: center;padding: 20px 5px 5px 0px">
+        <h2 class="box-title">第一篇的测试文章</h2>
+        <ul class="list-inline" style="margin-top: 5px">
+          <li>
+            <a href="#" class="link-black text-sm">
+              <i class="fa fa-clock-o margin-r-5"></i> 发布于：2018-02-09
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link-black text-sm">
+              <i class="fa fa-thumbs-o-up margin-r-5"></i> 喜欢
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link-black text-sm">
+              <i class="fa fa-comments-o margin-r-5"></i> 评论(5)
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link-black text-sm">
+              <i class="fa fa-tag margin-r-5"></i> 标签：NodeJS
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link-black text-sm">
+              <i class="fa fa-eye margin-r-5"></i> 5浏览
+            </a>
+          </li>
+        </ul>
+      </div>
+    
+      <div class="box-body">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              hahahahah
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="box comment">
+      <div class="box-header with-border">
+        <h2 class="box-title" style="text-align: center">留言（11条）</h2>
+      </div>
+      <div class="box-body">
+        <div class="post ul-right">
+          <div class="user-block">
+            <span class="username">
+              <a href="#">机器人1</a>
+              &nbsp;&nbsp;说：
+            </span>
+          </div>
+          <p>
+          1.洛阳13项目重新添加麻将相关表结构并修改战绩查询模块和代开房间查询模块；小局详情里添加麻将、跑得快小局详情；修复管理端无法查看下局信息的bug；2.心想事成添加支付模块和七牛上传模块，添加充值回调接口；心想事成后台接口和vue界面完成测试交付并在线上部署；3.牌霸移动端配合李勇利搭建测试选取的移动端框架，调试并绑定接口；进行线下测试并部署完毕；
+          </p>
+          <ul class="list-inline">
+            <li>
+              <a href="#" class="link-black text-sm">发表于 2018-11-11 11:11:11</a>
+            </li>
+          </ul>
+        </div>
+        <div class="post">
+          <div class="user-block">
+            <span class="username">
+              <a href="#">机器人1</a>
+              &nbsp;&nbsp;说：
+            </span>
+          </div>
+          <p>
+            1.洛阳13项目重新添加麻将相关表结构并修改战绩查询模块和代开房间查询模块；小局详情里添加麻将、跑得快小局详情；修复管理端无法查看下局信息的bug；2.心想事成添加支付模块和七牛上传模块，添加充值回调接口；心想事成后台接口和vue界面完成测试交付并在线上部署；3.牌霸移动端配合李勇利搭建测试选取的移动端框架，调试并绑定接口；进行线下测试并部署完毕；
+          </p>
+          <ul class="list-inline">
+            <li class="pull-right">
+              <a href="#" class="link-black text-sm">发表于 2018-11-11 11:11:11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="box reply">
+      <div class="box-header with-border">
+        <h2 class="box-title" style="text-align: center">添加回复</h2>
+      </div>
+      <div class="box-body">
+        <textarea class="form-control" rows="3" placeholder="说点什么 ..."></textarea>
+      </div>
+      <div class="box-footer">
+        <button type="submit" class="btn btn-info pull-right">发表</button>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+</script>
+<style scoped>
+  .article .box-header .box-title {
+    font-size: 22px;
+  }
+
+  .user-block .username {
+    margin-left: 0px;
+  }
+
+  .user-block .username a, .username {
+    font-size: 14px;
+  }
+  
+  .post {
+    padding-bottom: 0px;
+  }
+</style>

@@ -108,4 +108,13 @@
     width: 30px;
     text-align: center;
   }
+
+  .ul-right .list-inline li {
+    display: inline;
+    float: right;
+  }
+  
+  .ul-right .list-inline {
+    padding: 1px 0px 15px 0px;
+  }
 </style>
